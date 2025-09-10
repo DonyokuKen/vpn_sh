@@ -23,7 +23,7 @@ echo -e "${NC}${LIGHT}Fuck You!!"
 exit 0
 fi
 # Link Hosting Kalian
-donyoku="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/mainsstp"
+donyoku="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/sstp"
 
 MYIP=$(wget -qO- ipinfo.io/ip);
 MYIP2="s/xxxxxxxxx/$MYIP/g";

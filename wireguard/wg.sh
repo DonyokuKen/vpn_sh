@@ -27,7 +27,7 @@ exit 0
 fi
 # ==================================================
 # Link Hosting Kalian
-fisabiliyusri="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/mainwireguard"
+fisabiliyusri="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/wireguard"
 
 # Check OS version
 if [[ -e /etc/debian_version ]]; then

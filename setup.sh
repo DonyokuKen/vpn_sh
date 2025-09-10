@@ -19,25 +19,25 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
 # Link Hosting Kalian Untuk Ssh Vpn
-donyoku="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/mainssh"
+donyoku="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/sssh"
 # Link Hosting Kalian Untuk Sstp
-donyokuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/mainsstp"
+donyokuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/sstp"
 # Link Hosting Kalian Untuk Ssr
-donyokuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/mainssr"
+donyokuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/ssr"
 # Link Hosting Kalian Untuk Shadowsocks
-donyokuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/mainshadowsocks"
+donyokuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/shadowsocks"
 # Link Hosting Kalian Untuk Wireguard
-donyokuuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/mainwireguard"
+donyokuuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/wireguard"
 # Link Hosting Kalian Untuk Xray
-donyokuuuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/mainxray"
+donyokuuuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/xray"
 # Link Hosting Kalian Untuk Ipsec
-donyokuuuuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/mainipsec"
+donyokuuuuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/ipsec"
 # Link Hosting Kalian Untuk Backup
-donyokuuuuuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/mainbackup"
+donyokuuuuuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/backup"
 # Link Hosting Kalian Untuk Websocket
-donyokuuuuuuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/mainwebsocket"
+donyokuuuuuuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/websocket"
 # Link Hosting Kalian Untuk Ohp
-donyokuuuuuuuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/mainohp"
+donyokuuuuuuuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/ohp"
 
 # Getting
 MYIP=$(wget -qO- ipinfo.io/ip);

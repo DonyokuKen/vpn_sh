@@ -23,7 +23,7 @@ echo -e "${NC}${LIGHT}Fuck You!!"
 exit 0
 fi
 # Link Hosting Kalian
-donyoku="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/mainshadowsocks"
+donyoku="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/shadowsocks"
 
 source /etc/os-release
 OS=$ID
