@@ -345,7 +345,7 @@ END
 cat > /etc/systemd/system/xray.service << END
 [Unit]
 Description=Xray Service Donyoku
-Documentation=https://nekopoi.care
+Documentation=https://google.com
 After=network.target nss-lookup.target
 
 [Service]
@@ -462,7 +462,7 @@ END
 cat > /etc/systemd/system/trojan-go.service << END
 [Unit]
 Description=Trojan-Go Service Donyoku
-Documentation=nekopoi.care
+Documentation=google.com
 After=network.target nss-lookup.target
 
 [Service]
