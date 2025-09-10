@@ -37,10 +37,10 @@ ver=$VERSION_ID
 country=ID
 state=Indonesia
 locality=Indonesia
-organization=infinity
-organizationalunit=infinity
+organization=donyoku
+organizationalunit=donyoku
 commonname=localhost
-email=hayuk69@gmail.com
+email=dyliantech@gmail.com
 
 # simple password minimal
 wget -O /etc/pam.d/common-password "https://${donyoku}/password"

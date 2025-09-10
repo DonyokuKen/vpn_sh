@@ -37,10 +37,10 @@ ver=$VERSION_ID
 country=ID
 state=Indonesia
 locality=Indonesia
-organization=akbarstorevpn
-organizationalunit=akbarstorevpn
-commonname=akbarstorevpn
-email=akbarssh21@gmail.com
+organization=donyoku
+organizationalunit=donyoku
+commonname=aselole.dpdns.org
+email=dyliantech@gmail.com
 
 cd
 
