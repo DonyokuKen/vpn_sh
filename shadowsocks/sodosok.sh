@@ -23,7 +23,7 @@ echo -e "${NC}${LIGHT}Fuck You!!"
 exit 0
 fi
 # Link Hosting Kalian
-akbarvpn="raw.githubusercontent.com/fisabiliyusri/Mantap/main/shadowsocks"
+donyoku="raw.githubusercontent.com/fisabiliyusri/Mantap/main/shadowsocks"
 
 source /etc/os-release
 OS=$ID
@@ -113,10 +113,10 @@ iptables -I INPUT -m state --state NEW -m udp -p udp --dport 2443:3543 -j ACCEPT
 iptables-save > /etc/iptables.up.rules
 ip6tables-save > /etc/ip6tables.up.rules
 cd /usr/bin
-wget -O addss "https://${akbarvpn}/addss.sh"
-wget -O delss "https://${akbarvpn}/delss.sh"
-wget -O cekss "https://${akbarvpn}/cekss.sh"
-wget -O renewss "https://${akbarvpn}/renewss.sh"
+wget -O addss "https://${donyoku}/addss.sh"
+wget -O delss "https://${donyoku}/delss.sh"
+wget -O cekss "https://${donyoku}/cekss.sh"
+wget -O renewss "https://${donyoku}/renewss.sh"
 chmod +x addss
 chmod +x delss
 chmod +x cekss

@@ -194,17 +194,17 @@ http {
 #}
 END
 
-wget https://raw.github.com/antinsp/bonetrojan/main/jejel/menu/ak
-wget https://raw.github.com/antinsp/bonetrojan/main/jejel/menu/del
-wget https://raw.github.com/antinsp/bonetrojan/main/jejel/menu/menu
-wget https://raw.github.com/antinsp/bonetrojan/main/jejel/menu/renew
-wget https://raw.github.com/antinsp/bonetrojan/main/jejel/menu/restart
-wget https://raw.github.com/antinsp/bonetrojan/main/jejel/menu/xp
-wget https://raw.github.com/antinsp/bonetrojan/main/jejel/menu/xp_cron
-wget https://raw.github.com/antinsp/bonetrojan/main/jejel/menu/reboot_vps
-wget https://raw.github.com/antinsp/bonetrojan/main/jejel/menu/reboot_otomatis.sh
-wget https://raw.github.com/antinsp/bonetrojan/main/jejel/menu/certv2ray
-wget https://raw.github.com/antinsp/bonetrojan/main/jejel/menu/addhost
+wget raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/jejel/menu/ak
+wget raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/jejel/menu/del
+wget raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/jejel/menu/menu
+wget raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/jejel/menu/renew
+wget raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/jejel/menu/restart
+wget raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/jejel/menu/xp
+wget raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/jejel/menu/xp_cron
+wget raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/jejel/menu/reboot_vps
+wget raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/jejel/menu/reboot_otomatis.sh
+wget raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/jejel/menu/certv2ray
+wget raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/jejel/menu/addhost
 
 mv certv2ray /bin/certv2ray
 mv addhost /bin/addhost

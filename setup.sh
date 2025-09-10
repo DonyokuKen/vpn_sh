@@ -19,25 +19,25 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
 # Link Hosting Kalian Untuk Ssh Vpn
-akbarvpn="raw.githubusercontent.com/antinsp/bonetrojan/main/ssh"
+donyoku="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/ssh"
 # Link Hosting Kalian Untuk Sstp
-akbarvpnn="raw.githubusercontent.com/antinsp/bonetrojan/main/sstp"
+donyokuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/sstp"
 # Link Hosting Kalian Untuk Ssr
-akbarvpnnn="raw.githubusercontent.com/antinsp/bonetrojan/main/ssr"
+donyokuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/ssr"
 # Link Hosting Kalian Untuk Shadowsocks
-akbarvpnnnn="raw.githubusercontent.com/antinsp/bonetrojan/main/shadowsocks"
+donyokuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/shadowsocks"
 # Link Hosting Kalian Untuk Wireguard
-akbarvpnnnnn="raw.githubusercontent.com/antinsp/bonetrojan/main/wireguard"
+donyokuuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/wireguard"
 # Link Hosting Kalian Untuk Xray
-akbarvpnnnnnn="raw.githubusercontent.com/antinsp/bonetrojan/main/xray"
+donyokuuuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/xray"
 # Link Hosting Kalian Untuk Ipsec
-akbarvpnnnnnnn="raw.githubusercontent.com/antinsp/bonetrojan/main/ipsec"
+donyokuuuuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/ipsec"
 # Link Hosting Kalian Untuk Backup
-akbarvpnnnnnnnn="raw.githubusercontent.com/antinsp/bonetrojan/main/backup"
+donyokuuuuuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/backup"
 # Link Hosting Kalian Untuk Websocket
-akbarvpnnnnnnnnn="raw.githubusercontent.com/antinsp/bonetrojan/main/websocket"
+donyokuuuuuuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/websocket"
 # Link Hosting Kalian Untuk Ohp
-akbarvpnnnnnnnnnn="raw.githubusercontent.com/antinsp/bonetrojan/main/ohp"
+donyokuuuuuuuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/ohp"
 
 # Getting
 MYIP=$(wget -qO- ipinfo.io/ip);
@@ -52,35 +52,35 @@ exit 0
 fi
 mkdir /var/lib/crot;
 echo "IP=" >> /var/lib/crot/ipvps.conf
-wget https://${akbarvpn}/slhost.sh && chmod +x slhost.sh && ./slhost.sh
+wget https://${donyoku}/slhost.sh && chmod +x slhost.sh && ./slhost.sh
 #install xray
-wget https://${akbarvpnnnnnn}/ins-xray.sh && chmod +x ins-xray.sh && screen -S xray ./ins-xray.sh
+wget https://${donyokuuuuuu}/ins-xray.sh && chmod +x ins-xray.sh && screen -S xray ./ins-xray.sh
 #install ssh ovpn
-wget https://${akbarvpn}/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
-#wget https://${akbarvpnn}/sstp.sh && chmod +x sstp.sh && screen -S sstp ./sstp.sh
+wget https://${donyoku}/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
+#wget https://${donyokuu}/sstp.sh && chmod +x sstp.sh && screen -S sstp ./sstp.sh
 #install ssr
-#wget https://${akbarvpnnn}/ssr.sh && chmod +x ssr.sh && screen -S ssr ./ssr.sh
-#wget https://${akbarvpnnnn}/sodosok.sh && chmod +x sodosok.sh && screen -S ss ./sodosok.sh
+#wget https://${donyokuuu}/ssr.sh && chmod +x ssr.sh && screen -S ssr ./ssr.sh
+#wget https://${donyokuuuu}/sodosok.sh && chmod +x sodosok.sh && screen -S ss ./sodosok.sh
 #installwg
-#wget https://${akbarvpnnnnn}/wg.sh && chmod +x wg.sh && screen -S wg ./wg.sh
+#wget https://${donyokuuuuu}/wg.sh && chmod +x wg.sh && screen -S wg ./wg.sh
 #install L2TP
-#wget https://${akbarvpnnnnnnn}/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
-wget https://${akbarvpnnnnnnnn}/set-br.sh && chmod +x set-br.sh && ./set-br.sh
+#wget https://${donyokuuuuuuu}/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
+wget https://${donyokuuuuuuuu}/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 # Websocket
-wget https://${akbarvpnnnnnnnnn}/edu.sh && chmod +x edu.sh && ./edu.sh
+wget https://${donyokuuuuuuuuu}/edu.sh && chmod +x edu.sh && ./edu.sh
 # Ohp Server
-#wget https://${akbarvpnnnnnnnnnn}/ohp.sh && chmod +x ohp.sh && ./ohp.sh
+#wget https://${donyokuuuuuuuuuu}/ohp.sh && chmod +x ohp.sh && ./ohp.sh
 # Install SlowDNS
-#wget https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/SLDNS/install-sldns && chmod +x install-sldns && ./install-sldns
+#wget raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/SLDNS/install-sldns && chmod +x install-sldns && ./install-sldns
 # Informasi IP Saya dan Semua Port TCP UDP
- wget https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/ipsaya.sh && chmod +x ipsaya.sh
+ wget raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/ipsaya.sh && chmod +x ipsaya.sh
 #
 # install xray sl-grpc
-# wget https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/grpc/sl-grpc.sh && chmod +x sl-grpc.sh && screen -S sl-grpc ./sl-grpc.sh
+# wget raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/grpc/sl-grpc.sh && chmod +x sl-grpc.sh && screen -S sl-grpc ./sl-grpc.sh
 # install xray grpc
-# wget https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/grpc/xray-grpc.sh && chmod +x xray-grpc.sh && screen -S xray-grpc ./xray-grpc.sh
+# wget raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/grpc/xray-grpc.sh && chmod +x xray-grpc.sh && screen -S xray-grpc ./xray-grpc.sh
 # install shadowsocks plugin
-# wget https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/shadowsocks-plugin/install-ss-plugin.sh && chmod +x install-ss-plugin.sh && ./install-ss-plugin.sh
+# wget raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/shadowsocks-plugin/install-ss-plugin.sh && chmod +x install-ss-plugin.sh && ./install-ss-plugin.sh
  
 
 #rm -f /root/ssh-vpn.sh
@@ -112,7 +112,7 @@ WantedBy=multi-user.target
 EOF
 systemctl daemon-reload
 systemctl enable autosett
-wget -O /etc/set.sh "https://${akbarvpn}/set.sh"
+wget -O /etc/set.sh "https://${donyoku}/set.sh"
 chmod +x /etc/set.sh
 history -c
 echo "1.2" > /home/ver
