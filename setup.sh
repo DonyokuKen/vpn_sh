@@ -19,25 +19,25 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
 # Link Hosting Kalian Untuk Ssh Vpn
-donyoku="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/ssh"
+donyoku="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/arm64/ssh"
 # Link Hosting Kalian Untuk Sstp
-donyokuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/sstp"
+donyokuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/arm64/sstp"
 # Link Hosting Kalian Untuk Ssr
-donyokuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/ssr"
+donyokuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/arm64/ssr"
 # Link Hosting Kalian Untuk Shadowsocks
-donyokuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/shadowsocks"
+donyokuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/arm64/shadowsocks"
 # Link Hosting Kalian Untuk Wireguard
-donyokuuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/wireguard"
+donyokuuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/arm64/wireguard"
 # Link Hosting Kalian Untuk Xray
-donyokuuuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/xray"
+donyokuuuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/arm64/xray"
 # Link Hosting Kalian Untuk Ipsec
-donyokuuuuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/ipsec"
+donyokuuuuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/arm64/ipsec"
 # Link Hosting Kalian Untuk Backup
-donyokuuuuuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/backup"
+donyokuuuuuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/arm64/backup"
 # Link Hosting Kalian Untuk Websocket
-donyokuuuuuuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/websocket"
+donyokuuuuuuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/arm64/websocket"
 # Link Hosting Kalian Untuk Ohp
-donyokuuuuuuuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/ohp"
+donyokuuuuuuuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/arm64/ohp"
 
 # Getting
 MYIP=$(wget -qO- ipinfo.io/ip);
@@ -71,16 +71,16 @@ wget https://${donyokuuuuuuuuu}/edu.sh && chmod +x edu.sh && ./edu.sh
 # Ohp Server
 wget https://${donyokuuuuuuuuuu}/ohp.sh && chmod +x ohp.sh && ./ohp.sh
 # Install SlowDNS
-wget https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/SLDNS/install-sldns && chmod +x install-sldns && ./install-sldns
+wget https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/arm64/SLDNS/install-sldns && chmod +x install-sldns && ./install-sldns
 # Informasi IP Saya dan Semua Port TCP UDP
-# wget https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/ipsaya.sh && chmod +x ipsaya.sh
+# wget https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/arm64/ipsaya.sh && chmod +x ipsaya.sh
 #
 # install xray sl-grpc
-# wget https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/grpc/sl-grpc.sh && chmod +x sl-grpc.sh && screen -S sl-grpc ./sl-grpc.sh
+# wget https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/arm64/grpc/sl-grpc.sh && chmod +x sl-grpc.sh && screen -S sl-grpc ./sl-grpc.sh
 # install xray grpc
-# wget https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/grpc/xray-grpc.sh && chmod +x xray-grpc.sh && screen -S xray-grpc ./xray-grpc.sh
+# wget https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/arm64/grpc/xray-grpc.sh && chmod +x xray-grpc.sh && screen -S xray-grpc ./xray-grpc.sh
 # install shadowsocks plugin
-# wget https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/shadowsocks-plugin/install-ss-plugin.sh && chmod +x install-ss-plugin.sh && ./install-ss-plugin.sh
+# wget https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/arm64/shadowsocks-plugin/install-ss-plugin.sh && chmod +x install-ss-plugin.sh && ./install-ss-plugin.sh
  
 
 rm -f /root/ssh-vpn.sh

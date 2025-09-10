@@ -27,7 +27,7 @@ exit 0
 fi
 # ==================================================
 # Link Hosting Kalian
-fisabiliyusri="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/wireguard"
+DonyokuKen="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/arm64/wireguard"
 
 # Check OS version
 if [[ -e /etc/debian_version ]]; then
@@ -112,9 +112,9 @@ WG_RUNNING=$?
 
 # Tambahan
 cd /usr/bin
-wget -O addwg "https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/wireguard/addwg.sh"
-wget -O delwg "https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/wireguard/delwg.sh"
-wget -O renewwg "https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/wireguard/renewwg.sh"
+wget -O addwg "https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/arm64/wireguard/addwg.sh"
+wget -O delwg "https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/arm64/wireguard/delwg.sh"
+wget -O renewwg "https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/arm64/wireguard/renewwg.sh"
 chmod +x addwg
 chmod +x delwg
 chmod +x renewwg

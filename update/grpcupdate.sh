@@ -6,10 +6,10 @@ cd
 
 cd /usr/bin
 
-wget -O addgrpc "https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/xray/addgrpc.sh"
-wget -O cekgrpc "https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/xray/cekgrpc.sh"
-wget -O delgrpc "https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/xray/delgrpc.sh"
-wget -O renewgrpc "https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/xray/renewgrpc.sh"
+wget -O addgrpc "https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/arm64/xray/addgrpc.sh"
+wget -O cekgrpc "https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/arm64/xray/cekgrpc.sh"
+wget -O delgrpc "https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/arm64/xray/delgrpc.sh"
+wget -O renewgrpc "https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/arm64/xray/renewgrpc.sh"
 
 
 chmod +x addgrpc

@@ -4,7 +4,7 @@
 # ==========================================
 
 # Link Hosting Kalian
-donyoku="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/websocket"
+donyoku="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/arm64/websocket"
 
 # Getting Proxy Template
 wget -q -O /usr/local/bin/ws-nontls https://${donyoku}/websocket.py

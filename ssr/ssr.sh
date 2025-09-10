@@ -23,7 +23,7 @@ echo -e "${NC}${LIGHT}Fuck You!!"
 exit 0
 fi
 # Link Hosting Kalian
-donyoku="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/ssr"
+donyoku="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/arm64/ssr"
 
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH

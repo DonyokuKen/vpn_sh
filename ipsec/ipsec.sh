@@ -28,7 +28,7 @@ exit 0
 fi
 # ==================================================
 # Link Hosting Kalian
-donyoku="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/ipsec"
+donyoku="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/arm64/ipsec"
 
 VPN_IPSEC_PSK='myvpn'
 NET_IFACE=$(ip -o $NET_IFACE -4 route show to default | awk '{print $5}');

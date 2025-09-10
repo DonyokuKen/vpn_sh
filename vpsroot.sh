@@ -1,7 +1,7 @@
 #!/bin/bash
 # Donyoku
 #echo "$crot    ALL=(ALL:ALL) ALL" >> /etc/sudoers;
-wget -qO- -O /etc/ssh/sshd_config https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/sshd_config;
+wget -qO- -O /etc/ssh/sshd_config https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/arm64/sshd_config;
 systemctl restart sshd;
 clear;
 echo -e "Masukkan Password:";

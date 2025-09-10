@@ -14,16 +14,16 @@ LIGHT='\033[0;37m'
 MYIP=$(wget -qO- ipinfo.io/ip);
 # ==================================================
 # Link Hosting Kalian
-donyoku=""raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/ssh
+donyoku=""raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/arm64/ssh
 
 # Link Hosting Kalian Untuk Xray
-donyokuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/xray"
+donyokuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/arm64/xray"
 
 # Link Hosting Kalian Untuk Trojan Go
-donyokuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/trojango"
+donyokuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/arm64/trojango"
 
 # Link Hosting Kalian Untuk Stunnel5
-donyokuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/stunnel5"
+donyokuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/arm64/stunnel5"
 
 # initializing var
 export DEBIAN_FRONTEND=noninteractive
