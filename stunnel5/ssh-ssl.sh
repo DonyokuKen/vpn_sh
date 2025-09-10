@@ -40,7 +40,7 @@ locality=Indonesia
 organization=donyoku
 organizationalunit=donyoku
 commonname=aselole.dpdns.org
-email=dyliantech@gmail.com
+email=gaskenbangg@gmail.com
 
 cd
 

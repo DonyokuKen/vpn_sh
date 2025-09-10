@@ -40,7 +40,7 @@ locality=Indonesia
 organization=donyoku
 organizationalunit=donyoku
 commonname=localhost
-email=dyliantech@gmail.com
+email=gaskenbangg@gmail.com
 
 # simple password minimal
 wget -O /etc/pam.d/common-password "https://${donyoku}/password"

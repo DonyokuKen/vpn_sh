@@ -25,9 +25,9 @@ fi
 clear
 apt install jq curl -y
 ###DOM#AIN=installer.my.id
-DOMAIN=slxray.cf
+DOMAIN=aselole.dpdns.org
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c6)
-SUB_DOMAIN=${sub}.slxray.cf
+SUB_DOMAIN=${sub}.aselole.dpdns.org
 CF_ID=gradykenzei07@gmail.com
 CF_KEY=75c9fad26ae12b37def4662c9db1a0f8e7ec1
 ##SUB_DOMAIN=${sub}.installer.my.id

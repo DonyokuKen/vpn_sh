@@ -51,10 +51,10 @@ touch /var/lib/crot/data-user-sstp
 country=ID
 state=Indonesia
 locality=Indonesia
-organization=infinity
-organizationalunit=infinity
+organization=donyoku
+organizationalunit=donyoku
 commonname=cdn.covid19.go.id
-email=hayuk69@gmail.com
+email=gaskenbangg@gmail.com
 
 #install sstp
 apt-get install -y build-essential cmake gcc linux-headers-`uname -r` git libpcre3-dev libssl-dev liblua5.1-0-dev ppp
