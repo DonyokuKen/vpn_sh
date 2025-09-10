@@ -13,7 +13,7 @@ domain=$(cat domain)
 
 
 mkdir /etc/xray
-cp /root/domain /etc/xray/domain
+cp /root/domain /home/$USER/domain
 mkdir /etc/trojan-go
 cd /etc/trojan-go
 wget https://github.com/p4gefau1t/trojan-go/releases/download/v0.10.6/trojan-go-linux-amd64.zip

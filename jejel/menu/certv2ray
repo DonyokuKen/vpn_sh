@@ -15,7 +15,7 @@ clear
 echo start
 sleep 0.5
 source /var/lib/crot/ipvps.conf
-domain=$(cat /etc/xray/domain)
+domain=$(cat /home/$USER/domain)
 systemctl stop xray.service
 cd /root/
 wget -O acme.sh https://raw.githubusercontent.com/acmesh-official/acme.sh/master/acme.sh

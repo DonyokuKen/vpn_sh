@@ -24,7 +24,7 @@ exit 0
 fi
 source /var/crot/ipvps.conf
 if [[ "$IP2" = "" ]]; then
-domain=$(cat /etc/xray/domain)
+domain=$(cat /home/$USER/domain)
 else
 domain=$IP2
 fi

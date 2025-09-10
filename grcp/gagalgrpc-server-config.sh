@@ -4,13 +4,13 @@
 
 source /var/lib/crot/ipvps.conf
 if [[ "$IP" = "" ]]; then
-domain=$(cat /etc/xray/domain)
+domain=$(cat /home/$USER/domain)
 else
 domain=$IP
 fi
 MYIP=$(wget -qO- ipinfo.io/ip);
 clear
-domain=$(cat /etc/xray/domain)
+domain=$(cat /home/$USER/domain)
 
 fileaku=grpc-server-config.json
 

@@ -2,7 +2,7 @@
 
 MYIP=$(wget -qO- ipinfo.io/ip);
 clear
-domain=$(cat /etc/xray/domain)
+domain=$(cat /home/$USER/domain)
 systemctl stop nginx
 rm /etc/nginx/conf.d/testgrpc.conf
 touch /etc/nginx/conf.d/testgrpc.conf

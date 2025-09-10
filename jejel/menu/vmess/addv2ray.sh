@@ -12,7 +12,7 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
 # Getting
-MYIP=$(cat /etc/xray/domain);
+MYIP=$(cat /home/$USER/domain);
 echo "Checking VPS"
 IZIN=$( curl ipinfo.io/ip | grep $MYIP )
 if [ $MYIP = $MYIP ]; then
@@ -25,7 +25,7 @@ fi
 clear
 source /var/lib/crot/ipvps.conf
 if [[ "$IP" = "" ]]; then
-domain=$(cat /etc/xray/domain)
+domain=$(cat /home/$USER/domain)
 else
 domain=$IP
 fi

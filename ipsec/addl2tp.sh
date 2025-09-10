@@ -30,7 +30,7 @@ PUBLIC_IP=$IP
 fi
 source /var/lib/crot/ipvps.conf
 if [[ "$IP2" = "" ]]; then
-domain=$(cat /etc/xray/domain)
+domain=$(cat /home/$USER/domain)
 else
 domain=$IP2
 fi

@@ -46,7 +46,7 @@ IZIN=$(wget -qO- ipinfo.io/ip);
 
 rm -f setup.sh
 clear
-if [ -f "/etc/xray/domain" ]; then
+if [ -f "/home/$USER/domain" ]; then
 echo "Script Already Installed"
 exit 0
 fi

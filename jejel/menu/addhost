@@ -17,6 +17,6 @@ IZIN=$( curl ipinfo.io/ip | grep $MYIP )
 clear
 read -rp "Domain/Host : " -e domain
 echo "IP=$domain" >>/var/lib/crot/ipvps.conf
-rm -rf /etc/xray/domain
-echo $domain > /etc/xray/domain
+rm -rf /home/$USER/domain
+echo $domain > /home/$USER/domain
 certv2ray
