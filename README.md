@@ -16,8 +16,6 @@ Donyoku
 https://github.com/fisabiliyusri/XRAY-MANTAP
 ### Script Khusus Xray Multi Port TERBARU
 
-### Link Grup FB: 
-https://www.facebook.com/groups/1880372362109422/?ref=share
 ### Info:
 * HARAP DI BACA & UTAMAKAN MEMBACA
 # INI SCRIPT KHUSUS UNTUK MEMBUAT SERVER VPN
@@ -36,11 +34,6 @@ sudo -i
 atau
 ```html
 su
-```
-
-### Link Video Tutorial Cara Install
-```html
-https://www.facebook.com/100031931503057/posts/628374871570224/?app=fbl
 ```
 
 ## INFO TAMBAHAN , SILAHKAN DI BACA 
@@ -101,10 +94,6 @@ rm -f setup.sh && apt update && apt upgrade -y && update-grub && sleep 2 && apt-
 
 * • jika tidak bisa login di vps ,gunakan port ssh
 * • 22, 2253
-
-### Jangan Lupa Traktir Kopi
-<a href="https://trakteer.id/sulaiman-l/tip" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-6.png" height="40" style="border: 0px; height: 40px;" alt="Trakteer Saya"></a>
-https://trakteer.id/sulaiman-l/tip
 
 ### 5. MENU, INFO ,UPDATE ,FIX
 * untuk menampilkan menu
@@ -374,17 +363,3 @@ reboot
 
 • Auto Update
 
-<p align="center">
-<img height=21 src="https://komarev.com/ghpvc/?username=fisabiliyusri">
-</p>
-<div height='45' align="center">
-<h2>Contact me: <br>
-<a href="https://github.com/fisabiliyusri"> <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" height='50'> </a>
-<a href="https://facebook.com/sulaiman.xl"> <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg" height='50'> </a>
-<a href="https://trakteer.id/sulaiman-l/tip"> <img src="https://cdn.trakteer.id/images/embed/trbtn-red-6.png" height='50'> </a>
-</h2>
-</div>
-<h2 align="center">
-<img height=150 src="https://github-readme-stats.vercel.app/api/top-langs/?username=fisabiliyusri&layout=compact&theme=dark">
-<img height=150 src="https://github-readme-stats.vercel.app/api?username=fisabiliyusri&count_private=true&show_icons=true&theme=dark">
-<h2 align="center">

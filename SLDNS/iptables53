@@ -8,7 +8,7 @@ iptables -F
 iptables -X
 
 #SLOWDNS 53
-iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+iptables -t nat -A POSTROUTING -o enp0s6 -j MASQUERADE
 iptables -I INPUT -p udp --dport 53 -j ACCEPT 
 iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 53
 

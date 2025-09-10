@@ -234,7 +234,7 @@ cd vnstat-2.6
 ./configure --prefix=/usr --sysconfdir=/etc && make && make install
 cd
 vnstat -u -i $NET
-sed -i 's/Interface "'""eth0""'"/Interface "'""$NET""'"/g' /etc/vnstat.conf
+sed -i 's/Interface "'""enp0s6""'"/Interface "'""$NET""'"/g' /etc/vnstat.conf
 chown vnstat:vnstat /var/lib/vnstat -R
 systemctl enable vnstat
 /etc/init.d/vnstat restart
@@ -291,7 +291,6 @@ cat > /etc/systemd/system/stunnel5.service << END
 [Unit]
 Description=Stunnel5 Service
 Documentation=https://stunnel.org
-Documentation=https://github.com/Akbar218
 After=syslog.target network-online.target
 
 [Service]
