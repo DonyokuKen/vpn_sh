@@ -624,6 +624,10 @@ systemctl unmask vnstat
 systemctl enable vnstat
 systemctl start vnstat
 
+sudo apt install curl gnupg2 -y
+
+curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash
+
 apt install speedtest.cli -y
 
 systemctl daemon-reload 
