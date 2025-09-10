@@ -12,7 +12,7 @@ PURPLE='\033[0;35m'
 CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 
-MYIP='103.23.199.61';
+MYIP='168.110.197.117';
 clear
 domain='dns.aselole.dpdns.org'
 apt install iptables iptables-persistent -y
