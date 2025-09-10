@@ -66,7 +66,7 @@ EOF
 cat > /etc/systemd/system/xray@grpc-tls.service << END
 [Unit]
 Description=Xray Vless GRPC Service
-Documentation=https://nekopoi.care
+Documentation=https://google.com
 After=network.target nss-lookup.target
 
 [Service]

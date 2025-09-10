@@ -345,7 +345,7 @@ END
 cat > /etc/systemd/system/xray.service << END
 [Unit]
 Description=Xray Service Donyoku
-Documentation=https://nekopoi.care
+Documentation=https://google.com
 After=network.target nss-lookup.target
 
 [Service]
@@ -381,7 +381,7 @@ systemctl restart xray.service
 
 # Install Trojan Go
 latest_version="$(curl -s "https://api.github.com/repos/p4gefau1t/trojan-go/releases" | grep tag_name | sed -E 's/.*"v(.*)".*/\1/' | head -n 1)"
-trojango_link="https://github.com/p4gefau1t/trojan-go/releases/download/v${latest_version}/trojan-go-linux-arm.zip"
+trojango_link="https://github.com/p4gefau1t/trojan-go/releases/download/v${latest_version}/trojan-go-linux-armv8.zip"
 mkdir -p "/usr/bin/trojan-go"
 mkdir -p "/etc/trojan-go"
 cd `mktemp -d`
@@ -462,7 +462,7 @@ END
 cat > /etc/systemd/system/trojan-go.service << END
 [Unit]
 Description=Trojan-Go Service Donyoku
-Documentation=nekopoi.care
+Documentation=google.com
 After=network.target nss-lookup.target
 
 [Service]
