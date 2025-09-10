@@ -14,7 +14,7 @@ LIGHT='\033[0;37m'
 
 MYIP='103.23.199.61';
 clear
-domain='mod.kereaktif.tk'
+domain='dns.aselole.dpdns.org'
 apt install iptables iptables-persistent -y
 apt install curl socat xz-utils wget apt-transport-https gnupg gnupg2 gnupg1 dnsutils lsb-release -y 
 apt install socat cron bash-completion ntpdate -y
