@@ -14,7 +14,7 @@ LIGHT='\033[0;37m'
 MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
 # Link Hosting Kalian
-donyoku="raw.githubusercontent.com/fisabiliyusri/Mantap/main/backup"
+donyoku="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/mainbackup"
 
 apt install rclone -y
 printf "q\n" | rclone config

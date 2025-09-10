@@ -19,25 +19,25 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
 # Link Hosting Kalian Untuk Ssh Vpn
-donyoku="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/ssh"
+donyoku="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/mainssh"
 # Link Hosting Kalian Untuk Sstp
-donyokuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/sstp"
+donyokuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/mainsstp"
 # Link Hosting Kalian Untuk Ssr
-donyokuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/ssr"
+donyokuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/mainssr"
 # Link Hosting Kalian Untuk Shadowsocks
-donyokuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/shadowsocks"
+donyokuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/mainshadowsocks"
 # Link Hosting Kalian Untuk Wireguard
-donyokuuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/wireguard"
+donyokuuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/mainwireguard"
 # Link Hosting Kalian Untuk Xray
-donyokuuuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/xray"
+donyokuuuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/mainxray"
 # Link Hosting Kalian Untuk Ipsec
-donyokuuuuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/ipsec"
+donyokuuuuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/mainipsec"
 # Link Hosting Kalian Untuk Backup
-donyokuuuuuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/backup"
+donyokuuuuuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/mainbackup"
 # Link Hosting Kalian Untuk Websocket
-donyokuuuuuuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/websocket"
+donyokuuuuuuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/mainwebsocket"
 # Link Hosting Kalian Untuk Ohp
-donyokuuuuuuuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/ohp"
+donyokuuuuuuuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/mainohp"
 
 # Getting
 MYIP=$(wget -qO- ipinfo.io/ip);
@@ -46,7 +46,7 @@ IZIN=$(wget -qO- ipinfo.io/ip);
 
 rm -f setup.sh
 clear
-if [ -f "/home/$USER/domain" ]; then
+if [ -f "/etc/xray/domain" ]; then
 echo "Script Already Installed"
 exit 0
 fi
@@ -57,46 +57,46 @@ wget https://${donyoku}/slhost.sh && chmod +x slhost.sh && ./slhost.sh
 wget https://${donyokuuuuuu}/ins-xray.sh && chmod +x ins-xray.sh && screen -S xray ./ins-xray.sh
 #install ssh ovpn
 wget https://${donyoku}/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
-#wget https://${donyokuu}/sstp.sh && chmod +x sstp.sh && screen -S sstp ./sstp.sh
+wget https://${donyokuu}/sstp.sh && chmod +x sstp.sh && screen -S sstp ./sstp.sh
 #install ssr
-#wget https://${donyokuuu}/ssr.sh && chmod +x ssr.sh && screen -S ssr ./ssr.sh
-#wget https://${donyokuuuu}/sodosok.sh && chmod +x sodosok.sh && screen -S ss ./sodosok.sh
+wget https://${donyokuuu}/ssr.sh && chmod +x ssr.sh && screen -S ssr ./ssr.sh
+wget https://${donyokuuuu}/sodosok.sh && chmod +x sodosok.sh && screen -S ss ./sodosok.sh
 #installwg
-#wget https://${donyokuuuuu}/wg.sh && chmod +x wg.sh && screen -S wg ./wg.sh
+wget https://${donyokuuuuu}/wg.sh && chmod +x wg.sh && screen -S wg ./wg.sh
 #install L2TP
-#wget https://${donyokuuuuuuu}/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
+wget https://${donyokuuuuuuu}/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
 wget https://${donyokuuuuuuuu}/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 # Websocket
 wget https://${donyokuuuuuuuuu}/edu.sh && chmod +x edu.sh && ./edu.sh
 # Ohp Server
-#wget https://${donyokuuuuuuuuuu}/ohp.sh && chmod +x ohp.sh && ./ohp.sh
+wget https://${donyokuuuuuuuuuu}/ohp.sh && chmod +x ohp.sh && ./ohp.sh
 # Install SlowDNS
-#wget raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/SLDNS/install-sldns && chmod +x install-sldns && ./install-sldns
+wget https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/SLDNS/install-sldns && chmod +x install-sldns && ./install-sldns
 # Informasi IP Saya dan Semua Port TCP UDP
- wget raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/ipsaya.sh && chmod +x ipsaya.sh
+# wget https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/ipsaya.sh && chmod +x ipsaya.sh
 #
 # install xray sl-grpc
-# wget raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/grpc/sl-grpc.sh && chmod +x sl-grpc.sh && screen -S sl-grpc ./sl-grpc.sh
+# wget https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/grpc/sl-grpc.sh && chmod +x sl-grpc.sh && screen -S sl-grpc ./sl-grpc.sh
 # install xray grpc
-# wget raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/grpc/xray-grpc.sh && chmod +x xray-grpc.sh && screen -S xray-grpc ./xray-grpc.sh
+# wget https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/grpc/xray-grpc.sh && chmod +x xray-grpc.sh && screen -S xray-grpc ./xray-grpc.sh
 # install shadowsocks plugin
-# wget raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/shadowsocks-plugin/install-ss-plugin.sh && chmod +x install-ss-plugin.sh && ./install-ss-plugin.sh
+# wget https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/shadowsocks-plugin/install-ss-plugin.sh && chmod +x install-ss-plugin.sh && ./install-ss-plugin.sh
  
 
-#rm -f /root/ssh-vpn.sh
-#rm -f /root/sstp.sh
-#rm -f /root/wg.sh
-#rm -f /root/ss.sh
-#rm -f /root/ssr.sh
+rm -f /root/ssh-vpn.sh
+rm -f /root/sstp.sh
+rm -f /root/wg.sh
+rm -f /root/ss.sh
+rm -f /root/ssr.sh
 rm -f /root/ins-xray.sh
-#rm -f /root/ipsec.sh
-#rm -f /root/set-br.sh
-#rm -f /root/edu.sh
-#rm -f /root/ohp.sh
-#rm -f /root/install
-#rm -f /root/sl-grpc.sh
-#rm -f /root/install-sldns
-#rm -f /root/install-ss-plugin.sh
+rm -f /root/ipsec.sh
+rm -f /root/set-br.sh
+rm -f /root/edu.sh
+rm -f /root/ohp.sh
+rm -f /root/install
+rm -f /root/sl-grpc.sh
+rm -f /root/install-sldns
+rm -f /root/install-ss-plugin.sh
 cat <<EOF> /etc/systemd/system/autosett.service
 [Unit]
 Description=autosetting
@@ -152,7 +152,7 @@ echo "   - XRAYS VLESS GRPC        : 2280"  | tee -a log-install.txt
 echo "   - OHP SSH                 : 8181"  | tee -a log-install.txt
 echo "   - OHP Dropbear            : 8282"  | tee -a log-install.txt
 echo "   - OHP OpenVPN             : 8383"  | tee -a log-install.txt
-echo "   - TrojanGo                : 443"  | tee -a log-install.txt
+echo "   - TrojanGo                : 2087"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "   >>> Server Information & Other Features"  | tee -a log-install.txt
 echo "   - Timezone                : Asia/Jakarta (GMT +7)"  | tee -a log-install.txt

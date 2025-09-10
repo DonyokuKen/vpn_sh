@@ -13,7 +13,7 @@ LIGHT='\033[0;37m'
 # ==========================================
 # Getting
 
-domain=$(cat /home/$USER/domain)
+domain=$(cat /etc/xray/domain)
 sldomain=$(cat /root/nsdomain)
 cdndomain=$(cat /root/awscdndomain)
 slkey=$(cat /etc/slowdns/server.pub)

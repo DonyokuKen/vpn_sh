@@ -6,8 +6,8 @@ MYIP=$(wget -qO- icanhazip.com);
 apt install jq curl -y
 rm -f /root/domain
 rm -f /etc/v2ray/domain
-rm -f /home/$USER/domain
-rm -rf /home/$USER/domain
+rm -f /etc/xray/domain
+rm -rf /etc/xray/domain
 rm -rf /root/nsdomain
 rm -rf /var/lib/crot/ipvps.conf
 rm nsdomain
@@ -75,14 +75,14 @@ RESULT=$(curl -sLX PUT "https://api.cloudflare.com/client/v4/zones/${ZONE}/dns_r
      -H "X-Auth-Key: ${CF_KEY}" \
      -H "Content-Type: application/json" \
      --data '{"type":"NS","name":"'${NS_DOMAIN}'","content":"'${SUB_DOMAIN}'","ttl":120,"proxied":false}')
-rm -rf /home/$USER/domain
+rm -rf /etc/xray/domain
 rm -rf /root/nsdomain
 echo "IP=""$SUB_DOMAIN" >> /var/lib/crot/ipvps.conf
 echo "Host : $SUB_DOMAIN"
 echo $SUB_DOMAIN > /root/domain
 echo "Host SlowDNS : $NS_DOMAIN"
 echo "$NS_DOMAIN" >> /root/nsdomain
-echo "$SUB_DOMAIN" >> /home/$USER/domain
+echo "$SUB_DOMAIN" >> /etc/xray/domain
 cd
 
 

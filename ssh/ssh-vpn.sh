@@ -14,16 +14,16 @@ LIGHT='\033[0;37m'
 MYIP=$(wget -qO- ipinfo.io/ip);
 # ==================================================
 # Link Hosting Kalian
-donyoku="raw.githubusercontent.com/fisabiliyusri/Mantap/main/ssh"
+donyoku="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/mainssh"
 
 # Link Hosting Kalian Untuk Xray
-donyokuu="raw.githubusercontent.com/fisabiliyusri/Mantap/main/xray"
+donyokuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/mainxray"
 
 # Link Hosting Kalian Untuk Trojan Go
-donyokuuu="raw.githubusercontent.com/fisabiliyusri/Mantap/main/trojango"
+donyokuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/maintrojango"
 
 # Link Hosting Kalian Untuk Stunnel5
-donyokuuuu="raw.githubusercontent.com/fisabiliyusri/Mantap/main/stunnel5"
+donyokuuuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/mainstunnel5"
 
 # initializing var
 export DEBIAN_FRONTEND=noninteractive
@@ -374,7 +374,7 @@ cd /usr/bin
 wget -O addhost "https://${donyoku}/addhost.sh"
 wget -O slhost "https://${donyoku}/slhost.sh"
 wget -O about "https://${donyoku}/about.sh"
-wget -O menu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/menu.sh"
+wget -O menu "https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/update/menu.sh"
 wget -O addssh "https://${donyoku}/addssh.sh"
 wget -O trialssh "https://${donyoku}/trialssh.sh"
 wget -O delssh "https://${donyoku}/delssh.sh"
@@ -421,28 +421,28 @@ wget -O addtrgo "https://${donyokuuu}/addtrgo.sh"
 wget -O deltrgo "https://${donyokuuu}/deltrgo.sh"
 wget -O renewtrgo "https://${donyokuuu}/renewtrgo.sh"
 wget -O cektrgo "https://${donyokuuu}/cektrgo.sh"
-wget -O portsshnontls "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/websocket/portsshnontls.sh"
-wget -O portsshws "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/websocket/portsshws.sh"
+wget -O portsshnontls "https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/websocket/portsshnontls.sh"
+wget -O portsshws "https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/websocket/portsshws.sh"
 
-wget -O ipsaya "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/ipsaya.sh"
-wget -O sshovpnmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/sshovpn.sh"
-wget -O l2tpmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/l2tpmenu.sh"
-wget -O pptpmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/pptpmenu.sh"
-wget -O sstpmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/sstpmenu.sh"
-wget -O wgmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/wgmenu.sh"
-wget -O ssmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/ssmenu.sh"
-wget -O ssrmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/ssrmenu.sh"
-wget -O vmessmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/vmessmenu.sh"
-wget -O vlessmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/vlessmenu.sh"
-wget -O grpcmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/grpcmenu.sh"
-wget -O grpcupdate "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/grpcupdate.sh"
-wget -O trmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/trmenu.sh"
-wget -O trgomenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/trgomenu.sh"
-wget -O setmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/setmenu.sh"
-wget -O slowdnsmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/slowdnsmenu.sh"
-wget -O running "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/running.sh"
-wget -O updatemenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/updatemenu.sh"
-wget -O sl-fix "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/sslh-fix/sl-fix"
+wget -O ipsaya "https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/update/ipsaya.sh"
+wget -O sshovpnmenu "https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/update/sshovpn.sh"
+wget -O l2tpmenu "https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/update/l2tpmenu.sh"
+wget -O pptpmenu "https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/update/pptpmenu.sh"
+wget -O sstpmenu "https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/update/sstpmenu.sh"
+wget -O wgmenu "https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/update/wgmenu.sh"
+wget -O ssmenu "https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/update/ssmenu.sh"
+wget -O ssrmenu "https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/update/ssrmenu.sh"
+wget -O vmessmenu "https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/update/vmessmenu.sh"
+wget -O vlessmenu "https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/update/vlessmenu.sh"
+wget -O grpcmenu "https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/update/grpcmenu.sh"
+wget -O grpcupdate "https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/update/grpcupdate.sh"
+wget -O trmenu "https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/update/trmenu.sh"
+wget -O trgomenu "https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/update/trgomenu.sh"
+wget -O setmenu "https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/update/setmenu.sh"
+wget -O slowdnsmenu "https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/update/slowdnsmenu.sh"
+wget -O running "https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/update/running.sh"
+wget -O updatemenu "https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/update/updatemenu.sh"
+wget -O sl-fix "https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/sslh-fix/sl-fix"
 
 chmod +x sl-fix
 chmod +x ipsaya

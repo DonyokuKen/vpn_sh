@@ -3,13 +3,13 @@
 # =====================================================
 source /var/lib/crot/ipvps.conf
 if [[ "$IP" = "" ]]; then
-domain=$(cat /home/$USER/domain)
+domain=$(cat /etc/xray/domain)
 else
 domain=$IP
 fi
 MYIP=$(wget -qO- ipinfo.io/ip);
 clear
-domain=$(cat /home/$USER/domain)
+domain=$(cat /etc/xray/domain)
 
 #Update Sertificate SSL
 echo Starting Update SSL Sertificate

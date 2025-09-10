@@ -33,7 +33,7 @@ SERVER_PUB_IP=$IP
 fi
 source /var/lib/crot/ipvps.conf
 if [[ "$IP2" = "" ]]; then
-domain=$(cat /home/$USER/domain)
+domain=$(cat /etc/xray/domain)
 else
 domain=$IP2
 fi

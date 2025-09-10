@@ -25,7 +25,7 @@ fi
 clear
 source /var/lib/crot/ipvps.conf
 if [[ "$IP" = "" ]]; then
-domain=$(cat /home/$USER/domain)
+domain=$(cat /etc/xray/domain)
 else
 domain=$IP
 fi

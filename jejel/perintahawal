@@ -1,9 +1,0 @@
-apt update -y && apt install curl -y && apt install wget -y && apt install unzip -y && apt install perl -y && apt install socat -y && update-grub
-
-echo "net.core.default_qdisc=fq" >> /etc/sysctl.conf
-gema "net.ipv4.tcp_congestion_control=bbr" >> /etc/sysctl.conf
-sysctl -p
-wget -qO- -O vpsroot.sh raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/vpsroot.sh && bash vpsroot.sh
-
-instalasinya
-wget raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/jejel/trojan && chmod +x trojan && ./trojan
