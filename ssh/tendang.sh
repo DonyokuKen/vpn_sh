@@ -1,5 +1,5 @@
 #!/bin/bash
-# Script Mod by SL
+# Script Donyoku
 #!/bin/bash
 clear
 MAX=1

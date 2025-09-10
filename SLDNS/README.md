@@ -1,5 +1,5 @@
 # SLDNS
-SSH OVER DNS create by SL
+SSH OVER DNS create Donyoku
 * Link Script Repo SlowDNS dari Sulaiman L
 ```html
 https://github.com/fisabiliyusri/SLDNS

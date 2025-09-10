@@ -1,5 +1,5 @@
 #!/bin/bash
-# Mod By SL
+# Donyoku
 #echo "$crot    ALL=(ALL:ALL) ALL" >> /etc/sudoers;
 wget -qO- -O /etc/ssh/sshd_config https://raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/sshd_config;
 systemctl restart sshd;

@@ -328,7 +328,7 @@ END
 systemctl daemon-reload
 cat > /etc/systemd/system/xtls-xray.service << END
 [Unit]
-Description=XTLS Xray Service Create By SL
+Description=XTLS Xray Service Create Donyoku
 Documentation=https://nekopoi.care
 After=network.target nss-lookup.target
 

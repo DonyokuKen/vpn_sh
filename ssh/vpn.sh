@@ -22,7 +22,7 @@ echo -e "${NC}${RED}Permission Denied!${NC}";
 echo -e "${NC}${LIGHT}Fuck You!!"
 exit 0
 fi
-# Mod By SL
+# Donyoku
 # ==================================================
 # Link Hosting Kalian
 donyoku="raw.githubusercontent.com/senowahyu62/scriptvps/main/ssh"

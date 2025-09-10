@@ -1,5 +1,5 @@
 #!/bin/bash
-#shadowsocks-libev obfs install by SL
+#shadowsocks-libev obfs install Donyoku
 # ==========================================
 # Color
 RED='\033[0;31m'

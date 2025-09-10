@@ -1,5 +1,5 @@
 #!/bin/bash
-# Mod By SL
+# Donyoku
 # =====================================================
 
 source /var/lib/crot/ipvps.conf
