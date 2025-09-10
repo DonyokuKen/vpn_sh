@@ -20,7 +20,7 @@ rm -rf /var/lib/crot/ipvps.conf
 #
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 subsl=$(</dev/urandom tr -dc a-x0-9 | head -c5)
-DOMAIN=aselole.dpdns.org
+DOMAIN=dns.aselole.dpdns.org
 SUB_DOMAIN=onichan-${sub}.aselole.dpdns.org
 NS_DOMAIN=slowdns-${subsl}.aselole.dpdns.org
 CF_ID=gradykenzei07@gmail.com
