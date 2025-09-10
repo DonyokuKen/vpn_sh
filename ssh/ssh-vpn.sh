@@ -382,7 +382,9 @@ wget -O member "https://${donyoku}/member.sh"
 wget -O delexp "https://${donyoku}/delexp.sh"
 wget -O cekssh "https://${donyoku}/cekssh.sh"
 wget -O restart "https://${donyoku}/restart.sh"
-wget -O speedtest "https://${donyoku}/speedtest_cli.py"
+wget -O /tmp/speedtest.deb "https://install.speedtest.net/app/cli/ookla-speedtest-1.2.0-linux-$(uname -m).deb"
+apt install -y /tmp/speedtest.deb
+rm -f /tmp/speedtest.deb
 wget -O info "https://${donyoku}/info.sh"
 wget -O ram "https://${donyoku}/ram.sh"
 wget -O renewssh "https://${donyoku}/renewssh.sh"

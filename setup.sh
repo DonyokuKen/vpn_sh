@@ -19,7 +19,7 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
 # Link Hosting Kalian Untuk Ssh Vpn
-donyoku="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/sssh"
+donyoku="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/ssh"
 # Link Hosting Kalian Untuk Sstp
 donyokuu="raw.githubusercontent.com/DonyokuKen/vpn_sh/refs/heads/main/sstp"
 # Link Hosting Kalian Untuk Ssr
