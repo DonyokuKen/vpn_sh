@@ -17,7 +17,7 @@
     "cipher": " ",
     "curves": " ",
     "prefer_server_cipher": false,
-    "sni": "sl.kereaktif.tk",
+    "sni": "dns.aselole.dpdns.org",
     "alpn": [
       "http/1.1"
     ],
@@ -51,6 +51,6 @@
   "websocket": {
     "enabled": true,
     "path": "/trojan",
-    "host": "sl.kereaktif.tk"
+    "host": "dns.aselole.dpdns.org"
   }
 }

@@ -1,4 +1,4 @@
-domain='kop.kereaktif.tk'
+domain='dns.aselole.dpdns.org'
 
 mkdir /etc/trojan-go
 cd /etc/trojan-go
