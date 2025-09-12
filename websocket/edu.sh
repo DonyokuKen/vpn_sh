@@ -14,7 +14,7 @@ chmod +x /usr/local/bin/ws-nontls
 cat > /etc/systemd/system/ws-nontls.service << END
 [Unit]
 Description=Python Proxy Mod By Akbar Maulana
-Documentation=https://nekopi.care
+Documentation=https://google.com
 After=network.target nss-lookup.target
 
 [Service]

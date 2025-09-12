@@ -398,9 +398,9 @@ cat > /etc/trojan-go/config.json << END
 {
   "run_type": "server",
   "local_addr": "0.0.0.0",
-  "local_port": 2087,
+  "local_port": 443,
   "remote_addr": "127.0.0.1",
-  "remote_port": 89,
+  "remote_port": 80,
   "log_level": 1,
   "log_file": "/var/log/trojan-go/trojan-go.log",
   "password": [
